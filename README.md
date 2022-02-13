@@ -47,16 +47,20 @@ Lot 3: The p-value is 0.04 which is lower than the significance level. Hence we 
 MechaCar can look at a few other metrics and study how well they could perform w.r.t the competition. Metrics like safety features (ratings), fuel efficiancy, environment impact (zero emmission?) etc can be considered along with other parameters like horsepower, city or highway fuel efficiency, maintenance cost etc. Personally, the 2 metrics that woulld be interesting and important to look at would be the maintenance cost and safety rating.
 
 1. What metric or metrics are you going to test?
+
 Environemnt impact in terms of emission of CO2. Anything less than 100g/km can be considered low – or good – CO2 emissions.
 
 2. What is the null hypothesis or alternative hypothesis?
+
 **Null Hypothesis:** the average CO2 emission of the car is lesser than 100g/km of a car in the population
 **Alternative Hypothesis:** the average CO2 emission of the car is equal to or greater than 100g/km of a car in the population
 
 3. What statistical test would you use to test the hypothesis? And why?
+
 **One-Sample t-Test:** since we are comparing against the population mean and want to infer that the Mechacar emits less CO2 than the population mean.
 
 4. What data is needed to run the statistical test?
+
 OBD / DSL test scores of cars along with the age of the car and KM run
 
 
